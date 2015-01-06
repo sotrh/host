@@ -1,0 +1,530 @@
+{
+  "students" : {
+    "links" : [
+      {
+        "rel" : "self",
+        "href" : "https://api.byu.edu/rest/v1/universityapi/students?4surname=Doe,page_start=51,page_size=50",
+        "http_method" : "GET"
+      },
+      {
+        "rel" : "students.prev",
+        "href" : "https: //api.byu.edu/rest/v1/universityapi/students?surname=Doe",
+        "page_start" : 1,
+        "page_size" : 50,
+        "http_method" : "GET"
+      },
+      {
+        "rel" : "students.next",
+        "href" : "https: //api.byu.edu/rest/v1/universityapi/students?surname=Doe",
+        "page_start" : 101,
+        "page_size" : 50,
+        "http_method" : "GET"
+      }
+    ],
+    "metadata" : {
+      "collection_size" : "436",
+      "page_start" : "51",
+      "page_end" : "100",
+      "page_size" : "50",
+      "default_page_size" : "50",
+      "field_sets_returned" : [
+        {
+          "value" : "basic"
+        },
+        {
+          "value" : "enrollments"
+        }
+      ],
+      "field_sets_available" : [
+        {
+          "value" : "person"
+        },
+        {
+          "value" : "person_logs"
+        },
+        {
+          "value" : "enrollment_logs"
+        },
+        {
+          "value" : "std_programs"
+        },
+        {
+          "value" : "std_program_logs"
+        },
+        {
+          "value" : "waitlists"
+        },
+        {
+          "value" : "waitlist_logs"
+        }
+      ],
+      "default_field_sets" : [
+        {
+          "value" : "basic"
+        }
+      ]
+    },
+    "values" : [
+      {
+        "links" : [
+          {
+            "rel" : "self",
+            "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456",
+            "http_method" : "GET"
+          },
+          {
+            "rel" : "students.delete",
+            "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456",
+            "http_method" : "DELETE"
+          },
+          {
+            "rel" : "students.modify",
+            "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456",
+            "http_method" : "PUT"
+          },
+          {
+            "rel" : "persons.info",
+            "href" : "https: //api.byu.edu/rest/v1/universityapi/persons/456456456",
+            "http_method" : "GET"
+          },
+          {
+            "rel" : "identities.info",
+            "href" : "https: //api.byu.edu/rest/v1/universityapi/identities/456456456",
+            "http_method" : "GET"
+          }
+        ],
+        "basic" : {
+          "sort_name" : "Doe,JaneA",
+          "display_name" : "JaneDoe",
+          "surname" : "Doe",
+          "rest_of_name" : "JaneA",
+          "preferred_first_name" : "Jane",
+          "person_id" : "456456456",
+          "byu_id" : "654654654",
+          "net_id" : "jd25",
+          "email" : "janedoe@gmail.com",
+          "home_town" : "SaltLakeCity",
+          "home_state_code" : "UT",
+          "home_country_code" : "USA",
+          "student_status" : "current",
+          "restricted" : "N"
+        },
+        "enrollments" : {
+          "links" : [
+            {
+              "rel" : "self",
+              "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments",
+              "http_method" : "GET"
+            },
+            {
+              "rel" : "enrollments.filter",
+              "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments?{query_parameters}",
+              "http_method" : "GET"
+            },
+            {
+              "rel" : "enrollments.add",
+              "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments",
+              "http_method" : "POST"
+            },
+            {
+              "rel" : "enrollments.prev",
+              "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments?page_start=1,page_size=50",
+              "http_method" : "GET"
+            },
+            {
+              "rel" : "enrollments.next",
+              "href" : "https://api.byu.edu/rest/v1/universityapi/students/456456456/enrollments?page_start=101",
+              "page_size" : 50,
+              "http_method" : "GET"
+            }
+          ],
+          "metadata" : {
+            "collection_size" : "112",
+            "page_start" : "51",
+            "page_end" : "100",
+            "page_size" : "50",
+            "default_page_size" : "50"
+          },
+          "values" : [
+            {
+              "links" : [
+                {
+                  "rel" : "self",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments/20145,00099,018,001",
+                  "http_method" : "GET"
+                },
+                {
+                  "rel" : "enrollments.drop",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments/20145,00099,018,001",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "enrollments.correction",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments/20145,00099,018,001",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "grades.post",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,00099,018,001/graderolls",
+                  "http_method" : "POST"
+                },
+                {
+                  "rel" : "grades.correction",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,00099,018,001/graderolls",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "instructor.assign",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,00099,018,001/class-instructors",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "schedules.info",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,00099,018,001/schedules",
+                  "http_method" : "GET"
+                },
+                {
+                  "rel" : "schedules.modify",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,00099,018,001/schedules",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "classes.info",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,00099,018,001",
+                  "http_method" : "GET"
+                },
+                {
+                  "rel" : "courses.info",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/courses/00099,018",
+                  "http_method" : "GET"
+                },
+                {
+                  "rel" : "curriculum-units.info",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/curriculum-units/00099",
+                  "http_method" : "GET"
+                }
+              ],
+              "person_id" : "456456456",
+              "year_term" : "20145",
+              "curriculum_id" : "00099",
+              "title_code" : "018",
+              "section_number" : "001",
+              "credit_hours" : "3.0",
+              "grade" : "",
+              "class_repeated" : "N",
+              "year_term_descr" : "Fall2014",
+              "year_term_long" : "FallSemester2014",
+              "dept_name" : "BIO",
+              "dept_name_descr" : "Biology",
+              "catalog_number" : "100",
+              "catalog_suffix" : "",
+              "transcript_title" : "PrinciplesofBiology",
+              "honors" : "",
+              "service_learning" : "",
+              "start_date" : "02-Sep-14",
+              "end_date" : "11-Dec-14",
+              "credit_type" : "S",
+              "credit_type_descr" : "Semester",
+              "section_type" : "DAY",
+              "section_type_descr" : "DayClasses",
+              "lab_quiz_section" : "",
+              "lab_quiz_section_descr" : "",
+              "date_graded" : "",
+              "graded_by_id" : "",
+              "graded_by_name" : "",
+              "date_added" : "02-Jul-14",
+              "added_by_id" : "456456456",
+              "added_by_name" : "Doe,Jane",
+              "add_drop_card" : "N",
+              "envelope_type" : "",
+              "envelope_id" : "",
+              "envelope_descr" : "",
+              "date_time_updated" : "02-Jul-14",
+              "updated_by_id" : "456456456",
+              "updated_by_name" : "Doe,Jane",
+              "instructors" : [
+                {
+                  "links" : [
+                    {
+                      "rel" : "instructor.info",
+                      "href" : "https: //api.byu.edu/rest/v1/universityapi/instructors/790205072",
+                      "http_method" : "GET"
+                    }
+                  ],
+                  "instructor_role" : "PRIMARY",
+                  "person_id" : "790205072",
+                  "sort_name" : "Bybee,SethMikaya",
+                  "display_name" : "SethBybee",
+                  "surname" : "Bybee",
+                  "rest_of_name" : "SethMikaya",
+                  "preferred_first_name" : "Seth",
+                  "email" : "seth.bybee@byu.edu",
+                  "office_address" : {
+                    "address_line_1" : "4057LSB",
+                    "address_line_2" : "Provo,UT 84602",
+                    "address_line_3" : "",
+                    "address_line_4" : ""
+                  },
+                  "instructor_phone" : {
+                    "phone_number" : "801-422-3152",
+                    "mobile" : "N",
+                    "contact_person" : ""
+                  }
+                },
+                {
+                  "links" : [
+                    {
+                      "rel" : "instructors.info",
+                      "href" : "https://api.byu.edu/rest/v1/universityapi/instructors/762206312",
+                      "http_method" : "GET"
+                    }
+                  ],
+                  "instructor_role" : "SUPERVISOR",
+                  "person_id" : "762206312",
+                  "sort_name" : "Burdett,Stephanie",
+                  "display_name" : "StephanieBurdett",
+                  "surname" : "Burdett",
+                  "rest_of_name" : "Stephanie",
+                  "preferred_first_name" : "Stephanie",
+                  "email" : "stephanie_burdett@byu.edu",
+                  "office_address" : {
+                    "address_line_1" : "2056BLSB",
+                    "address_line_2" : "Provo, UT 84602",
+                    "address_line_3" : "",
+                    "address_line_4" : ""
+                  },
+                  "instructor_phone" : {
+                    "phone_number" : "(801)422-4339",
+                    "mobile" : "N",
+                    "contact_person" : ""
+                  }
+                }
+              ],
+              "schedules" : [
+                {
+                  "links" : [
+                    {
+                      "rel" : "locations.info",
+                      "href" : "https: //api.byu.edu/rest/v1/universityapi/locations/LSB,2012",
+                      "http_method" : "GET"
+                    }
+                  ],
+                  "sequence_number" : "1",
+                  "event_type" : "CLS",
+                  "building" : "LSB",
+                  "room" : "2102",
+                  "days_taught" : "TTh",
+                  "start_date" : "02-Sep-14",
+                  "end_date" : "11-Dec-14",
+                  "begin_time" : "12: 00",
+                  "end_time" : "13: 15"
+                },
+                {
+                  "links" : [
+                    {
+                      "rel" : "locations.info",
+                      "href" : "https: //api.byu.edu/rest/v1/universityapi/locations/CTR,TEST",
+                      "http_method" : "GET"
+                    }
+                  ],
+                  "sequence_number" : "1",
+                  "event_type" : "FINALEXAM",
+                  "building" : "CTR",
+                  "room" : "TEST",
+                  "days_taught" : "",
+                  "start_date" : "",
+                  "end_date" : "",
+                  "begin_time" : "",
+                  "end_time" : ""
+                }
+              ]
+            },
+            {
+              "links" : [
+                {
+                  "rel" : "self",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments/20145,06387,001,001",
+                  "http_method" : "GET"
+                },
+                {
+                  "rel" : "enrollments.drop",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments/20145,06387,001,001",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "enrollments.correction",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/students/456456456/enrollments/20145,06387,001,001",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "grades.post",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,06387,001,001/graderolls",
+                  "http_method" : "POST"
+                },
+                {
+                  "rel" : "grades.correction",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,06387,001,001/graderolls",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "instructor.assign",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,06387,001,001/class-instructors",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "schedules.info",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,06387,001,001/schedules",
+                  "http_method" : "GET"
+                },
+                {
+                  "rel" : "schedules.modify",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,06387,001,001/schedules",
+                  "http_method" : "PUT"
+                },
+                {
+                  "rel" : "classes.info",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/classes/20145,06387,001,001",
+                  "http_method" : "GET"
+                },
+                {
+                  "rel" : "courses.info",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/courses/06387,001",
+                  "http_method" : "GET"
+                },
+                {
+                  "rel" : "curriculum-units.info",
+                  "href" : "https: //api.byu.edu/rest/v1/universityapi/curriculum-units/06387",
+                  "http_method" : "GET"
+                }
+              ],
+              "person_id" : "456456456",
+              "year_term" : "20145",
+              "curriculum_id" : "06387",
+              "title_code" : "001",
+              "section_number" : "001",
+              "credit_hours" : "3.0",
+              "grade" : "",
+              "class_repeated" : "N",
+              "year_term_descr" : "Fall2014",
+              "year_term_long" : "FallSemester2014",
+              "dept_name" : "MATH",
+              "dept_name_descr" : "Mathematics",
+              "catalog_number" : "110",
+              "catalog_suffix" : "",
+              "transcript_title" : "CollegeAlgebra",
+              "honors" : "",
+              "service_learning" : "",
+              "start_date" : "02-Sep-14",
+              "end_date" : "11-Dec-14",
+              "credit_type" : "S",
+              "credit_type_descr" : "Semester",
+              "section_type" : "DAY",
+              "section_type_descr" : "DayClasses",
+              "lab_quiz_section" : "",
+              "lab_quiz_section_descr" : "",
+              "date_graded" : "",
+              "graded_by_id" : "",
+              "graded_by_name" : "",
+              "date_added" : "02-Jul-14",
+              "added_by_id" : "456456456",
+              "added_by_name" : "Doe,Jane",
+              "add_drop_card" : "N",
+              "envelope_type" : "",
+              "envelope_id" : "",
+              "envelope_descr" : "",
+              "date_time_updated" : "02-Jul-14",
+              "updated_by_id" : "456456456",
+              "updated_by_name" : "Doe,Jane",
+              "instructors" : [
+                {
+                  "links" : [
+                    {
+                      "rel" : "instructor.info",
+                      "href" : "https: //api.byu.edu/rest/v1/universityapi/instructors/515215252",
+                      "http_method" : "GET"
+                    }
+                  ],
+                  "instructor_role" : "PRIMARY",
+                  "person_id" : "515215252",
+                  "sort_name" : "Hill,KrystalA",
+                  "display_name" : "KrystalHill",
+                  "surname" : "Hill",
+                  "rest_of_name" : "KrystalA",
+                  "preferred_first_name" : "Krystal",
+                  "email" : "khill@mathed.byu.edu",
+                  "office_address" : {
+                    "address_line_1" : "",
+                    "address_line_2" : "",
+                    "address_line_3" : "",
+                    "address_line_4" : ""
+                  },
+                  "instructor_phone" : {
+                    "phone_number" : "",
+                    "mobile" : "",
+                    "contact_person" : ""
+                  }
+                },
+                {
+                  "links" : [
+                    {
+                      "rel" : "instructors.info",
+                      "href" : "https: //api.byu.edu/rest/v1/universityapi/instructors/482206542",
+                      "http_method" : "GET"
+                    }
+                  ],
+                  "instructor_role" : "SUPERVISOR",
+                  "person_id" : "482206542",
+                  "sort_name" : "Teuscher,Dawn",
+                  "display_name" : "DawnTeuscher",
+                  "surname" : "Teuscher",
+                  "rest_of_name" : "Dawn",
+                  "preferred_first_name" : "Dawn",
+                  "email" : "dawn.teuscher@byu.edu",
+                  "office_address" : {
+                    "address_line_1" : "191TMCB",
+                    "address_line_2" : "Provo, UT 84602",
+                    "address_line_3" : "",
+                    "address_line_4" : ""
+                  },
+                  "instructor_phone" : {
+                    "phone_number" : "801-422-7407",
+                    "mobile" : "N",
+                    "contact_person" : ""
+                  }
+                },
+                {
+                  "links" : [
+                    {
+                      "rel" : "instructors.info",
+                      "href" : "https: //api.byu.edu/rest/v1/universityapi/instructors/516202482",
+                      "http_method" : "GET"
+                    }
+                  ],
+                  "instructor_role" : "SUPERVISOR",
+                  "person_id" : "516202482",
+                  "sort_name" : "Stoddard,Lonette",
+                  "display_name" : "LonetteStoddard",
+                  "surname" : "Stoddard",
+                  "rest_of_name" : "Lonette",
+                  "preferred_first_name" : "Lonette",
+                  "email" : "lonettes@byu.edu",
+                  "office_address" : {
+                    "address_line_1" : "276TMCB",
+                    "address_line_2" : "Provo, UT 84602",
+                    "address_line_3" : "",
+                    "address_line_4" : ""
+                  },
+                  "instructor_phone" : {
+                    "phone_number" : "801-422-2062",
+                    "mobile" : "N",
+                    "contact_person" : ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
