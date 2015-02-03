@@ -7,14 +7,12 @@
         ],
     },
     
-    "ManifestVersion" : "1.1test",
-    
     "WhatsNew" : [
                   { "appId" : "cougarCash" },
                   { "appId" : "internationalStudy" }
                   ],
     
-    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media", "Web"],
+    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media"],
     
     "ExternalApps" :
     {
@@ -23,7 +21,7 @@
             "Name" : "BYU Homepage",
             "Description" : "Launches the BYU Homepage in your browser.",
             "InProduction" : true,
-            "Categories" : ["Web"],
+            "Categories" : ["Campus"],
             "Icon_iOS" : "Homepage",
             "TargetUrl_iOS" : "http://byu.edu/",
             "BackupUrl_iOS" : null,
@@ -229,7 +227,7 @@
         {
             "Name" : "Business Card",
             "Description" : "The business card can be used to share your BYU contact information with other mobile devices. Contact information is encoded in a QR code, which can be scanned by another device. You can control what information you choose to share.",
-            "InProduction" : false,
+            "InProduction" : true,
             "Categories" : ["Me"],
             "LoginRequired" : true,
             "Icon_iOS" : "BusinessCard",
