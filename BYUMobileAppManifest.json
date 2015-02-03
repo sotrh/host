@@ -14,7 +14,7 @@
                   { "appId" : "internationalStudy" }
                   ],
     
-    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media"],
+    "CategoriesOrder" : ["Me", "Academic", "Services","Media", "Campus" ],
     
     "ExternalApps" :
     {
