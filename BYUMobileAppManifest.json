@@ -7,7 +7,7 @@
         ],
     },
     
-    "ManifestVersion" : "1.0test",
+    "ManifestVersion" : "1.1test",
     
     "WhatsNew" : [
                   { "appId" : "cougarCash" },
