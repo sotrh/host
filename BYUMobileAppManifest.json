@@ -1,0 +1,809 @@
+{
+    "ByuMobileSuite" :
+    {
+        "Name" : "BYU Mobile Suite",
+        "Analytics" :
+        [
+        ],
+    },
+    
+    "ManifestVersion" : "1.0test",
+    
+    "WhatsNew" : [
+                  { "appId" : "cougarCash" },
+                  { "appId" : "internationalStudy" }
+                  ],
+    
+    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media"],
+    
+    "ExternalApps" :
+    {
+        "byuHomepage" :
+        {
+            "Name" : "BYU Homepage",
+            "Description" : "Launches the BYU Homepage in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "Icon_iOS" : "Homepage",
+            "TargetUrl_iOS" : "http://byu.edu/",
+            "BackupUrl_iOS" : null,
+        },
+        "byuRadio" :
+        {
+            "Name" : "BYUradio",
+            "Description" : "Listen to BYU Radio programming on your mobile device. This feature launches the official BYU Radio app, if it is installed. Otherwise, it takes you to where you can download it.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "Radio",
+            "TargetUrl_iOS" : "byuradio://",
+            "BackupUrl_iOS" : "http://itunes.apple.com/us/app/byuradio/id505025934#",
+        },
+        "byuTranslate" :
+        {
+            "Name" : "BYU Translate",
+            "Description" : "Get the BYU Translate app! This feature launches the official BYU Translate app, if it is installed. Otherwise, it takes you to where you can download it.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "BYUTranslate",
+            "TargetUrl_iOS" : "byutranslate://",
+            "BackupUrl_iOS" : "https://itunes.apple.com/us/app/byutranslate/id534512918",
+        },
+        "byuTv" :
+        {
+            "Name" : "BYUtv",
+            "Description" : "Watch BYU TV programming on your mobile device. This feature launches the official BYU TV app, if it is installed. Otherwise, it takes you to where you can download it.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "BYUTV",
+            "TargetUrl_iOS" : "byutv://",
+            "BackupUrl_iOS" : "http://itunes.apple.com/us/app/byutv/id445128693#",
+        },
+        "educationWeek" :
+        {
+            "Name" : "Education Week",
+            "Description" : "Education Week offers more than 1,000 classes on education, religion, marriage, family relations, health, history, genealogy, science, youth interests, and many other subjects. The program is designed primarily for adults, although anyone age 14 and older may attend.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "Icon_iOS" : "EducationWeek",
+            "TargetUrl_iOS" : "http://edweek.byu.edu/mobile/",
+            "BackupUrl_iOS" : null,
+        },
+        "facebook" :
+        {
+            "Name" : "BYU Facebook",
+            "Description" : "View BYU's Facebook page. This launches in the official Facebook app, if it is installed. Otherwise, it launches in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "Facebook",
+            "TargetUrl_iOS" : "fb://profile/89253832887",
+            "BackupUrl_iOS" : "http://www.facebook.com/BYU",
+        },
+        "FilmFinder" :
+        {
+            "Name" : "Film Finder",
+            "Description" : "Find films at the BYU Harold B. Lee Library. Launches in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "FilmFinder",
+            "TargetUrl_iOS" : "http://search.lib.byu.edu/filmfinder",
+            "BackupUrl_iOS" : null,
+        },
+        "instagram" :
+        {
+            "Name" : "BYU Instagram",
+            "Description" : "View & follow BYU's instagram account.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "Instagram",
+            "TargetUrl_iOS" : "instagram://user?username=brighamyounguniversity",
+            "BackupUrl_iOS" : "http://instagram.com/brighamyounguniversity",
+        },
+        "internationalStudy" :
+        {
+            "Name" : "International Study",
+            "Description" : "Start your adventure today!",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "Icon_iOS" : "InternationalStudy",
+            "TargetUrl_iOS" : "http://kennedy.byu.edu/isp/",
+            "BackupUrl_iOS" : null
+        },
+        "library" :
+        {
+            "Name" : "Library",
+            "Description" : "Search library catalog. Renew checked out materials. This feature launches the BYU Library's mobile optimized website in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "Icon_iOS" : "HBLL",
+            "TargetUrl_iOS" : "http://lib.byu.edu/m/",
+            "BackupUrl_iOS" : null,
+        },
+        "multimedialab" :
+        {
+            "Name" : "Multimedia Lab",
+            "Description" : "The BYU Harold B. Lee Library's Multimedia Lab allows you to reserve computers and loan out other equipment to help you complete your projects.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "MultimediaLab",
+            "TargetUrl_iOS" : "https://mmlab.lib.byu.edu/mmlab/",
+            "BackupUrl_iOS" : null,
+        },
+        "myByu" :
+        {
+            "Name" : "myBYU",
+            "Description" : "Launches myBYU in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "Icon_iOS" : "myBYU",
+            "TargetUrl_iOS" : "https://cas.byu.edu/cas/login?service=https://my.byu.edu/uPortal/Login",
+            "BackupUrl_iOS" : null,
+        },
+        "newStudentTour" :
+        {
+            "Name" : "New Student Tour",
+            "Description" : "The BYU New Student Tour is an interactive experience, specifically designed to help incoming Freshmen become familiar with the buildings and services on campus. This feature launches the New Student Tour app, if it is installed. Otherwise, it takes you to where you can download it.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "Icon_iOS" : "NewStudentTour",
+            "TargetUrl_iOS" : "byuStudentTour://",
+            "BackupUrl_iOS" : "http://itunes.apple.com/us/app/byu-new-student-tour/id552029270#",
+        },
+        "sports" :
+        {
+            "Name" : "Sports",
+            "Description" : "This feature launches the BYU Athletics web site in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "Sports",
+            "TargetUrl_iOS" : "http://byucougars.com",
+            "BackupUrl_iOS" : null,
+        },
+        "slCenter" :
+        {
+            "Name" : "Salt Lake Center",
+            "Description" : "This feature launches the BYU Salt Lake Center's Homepage in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "Icon_iOS" : "SLCCenter",
+            "TargetUrl_iOS" : "http://ce.byu.edu/sl/",
+            "BackupUrl_iOS" : null,
+        },
+        "twitter" :
+        {
+            "Name" : "BYU Twitter",
+            "Description" : "View BYU's Twitter stream. This launches in the official Twitter app, if it is installed. Otherwise, it launches in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "Twitter",
+            "TargetUrl_iOS" : "twitter://user?screen_name=byu",
+            "BackupUrl_iOS" : "https://twitter.com/byu",
+        },
+        "youtube" :
+        {
+            "Name" : "BYU YouTube",
+            "Description" : "View BYU's YouTube channel. This launches in your browser.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "Icon_iOS" : "Youtube",
+            "TargetUrl_iOS" : "http://www.youtube.com/user/byu",
+            "BackupUrl_iOS" : null,
+        },
+    },
+    
+    "Apps" :
+    {
+        "alumni" :
+        {
+            "Name" : "Alumni Connect",
+            "Description" : "At the BYU Alumni Association, we believe the light we hold as alumni can be magnified when we connect with others who share the Spirit of the Y.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "AlumniConnect",
+            "Storyboard_iOS" : "AlumniConnect",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "booklist" :
+        {
+            "Name" : "My Book List",
+            "Description" : "Find out what books you need to purchase for your classes this semester. You can view the books for a specific course, or list all books sorted by author (convenient for actually picking up your books in the Bookstore). Books are flagged as either \"required\" or \"optional.\"",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "Booklist",
+            "Storyboard_iOS" : "ByuBooklistStoryboard",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "booklist_course_view",
+             "booklist_website_selected",
+             "booklist_item_view",
+             "booklist_non_bookstore_request_view",
+             "booklist_options_view"
+             ],
+        },
+        "businessCard" :
+        {
+            "Name" : "Business Card",
+            "Description" : "The business card can be used to share your BYU contact information with other mobile devices. Contact information is encoded in a QR code, which can be scanned by another device. You can control what information you choose to share.",
+            "InProduction" : false,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "BusinessCard",
+            "Storyboard_iOS" : "BusinessCardStoryboard",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "updated_contact_info_on_website",
+             "configuration_changed"
+             ],
+        },
+        "calendars" :
+        {
+            "Name" : "Calendars",
+            "Description" : "This feature allows you to view upcoming events on the various University Calendars. Subscribing to a calendar adds it to your iOS calendars. Subscribing to a specific event adds that event to one of your existing calendars.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "Calendars",
+            "Storyboard_iOS" : "CalendarStoryboard",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "event_view",
+             "event_added_to_calendar",
+             "calendar_view",
+             "calendar_subscription"
+             ],
+        },
+        "campusBuildings" :
+        {
+            "Name" : "Campus Buildings",
+            "Description" : "Know a building's name or acronym, but don't know where it is? This feature is for you. Easily locate buildings on campus.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "CampusBuildings",
+            "Storyboard_iOS" : "CampusBuildings",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "building_description_view",
+             "building_map_view"
+             ],
+        },
+        "campusCameras" :
+        {
+            "Name" : "Campus Cameras",
+            "Description" : "How long is the line at the testing center? Is the bookstore busy? Is it raining right now? Viewing webcams from across campus can help answer these questions.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "CampusCameras",
+            "Storyboard_iOS" : "CampusCameras",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "camera_view"
+             ],
+        },
+        "campusOperator" :
+        {
+            "Name" : "BYU Operator",
+            "Description" : "The Campus Operators can help you with phone numbers, BYU activities, and other related university information.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "CampusOperator",
+            "Storyboard_iOS" : "CampusOperator",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "campusReservations" :
+        {
+            "Name" : "Campus Services",
+            "Description" : "This is basically a watered down version of the Department Directory. We've selected a handful of departments we think most people will find useful, and made it easy to contact them.",
+            "InProduction" : true,
+            "Categories" : ["Services"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "CampusServices",
+            "Storyboard_iOS" : "CampusServices",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "service_selected",
+             "website_selected",
+             "phone_number_selected",
+             "email_address_selected",
+             "address_selected"
+             ],
+        },
+        "cannonCommons" :
+        {
+            "Name" : "Cannon Commons",
+            "Description" : "View menus, ingredients, and nutritional information for meals being served in the Cannon Commons.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "CannonCommons",
+            "Storyboard_iOS" : "CannonCommons",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "station_selected",
+             "meal_selected",
+             "recipe_view"
+             ],
+        },
+        "classRolls" :
+        {
+            "Name" : "Class Rolls",
+            "Description" : "This feature is for Professors. Now you can view your picture class rolls right on your mobile device.",
+            "InProduction" : true,
+            "Categories" : ["Academic"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "ClassRoll",
+            "Class_iOS" : "ClassRollClassesViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "class_roll_displayed",
+             "email_selected",
+             "phone_number_selected",
+             "address_selected"
+             ],
+        },
+        "cougarCash" :
+        {
+            "Name" : "Cougar Cash",
+            "Description" : "Need funds on your signature card? This is what you use to put funds on your card, check transactions, and report a lost card.",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "CougarCash",
+            "Storyboard_iOS" : "CougarCash",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "courseCatalog" :
+        {
+            "Name" : "Class Catalog",
+            "Description" : "Browse through the list of all classes currently scheduled at BYU. View the class description, who the instructor is, when and where it is being taught, even how many seats are still available.",
+            "InProduction" : true,
+            "Categories" : ["Academic"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "ClassCatalog",
+            "Class_iOS" : "CourseCatalogDeparmentsViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "department_selected",
+             "course_selected",
+             "year_term_selected",
+             "map_view",
+             "section_selected"
+             ],
+        },
+        "DepartmentDirectory" :
+        {
+            "Name" : "Department Directory",
+            "Description" : "This feature helps you find official contact information for departments across campus.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "DepartmentDirectory",
+            "Storyboard_iOS" : "DepartmentDirectory",
+            "Storyboard_iOS_iPad" : null,
+            "Analytics" :
+            [
+             "listing_view",
+             "address_selected",
+             "phone_number_selected",
+             "email_address_selected",
+             "website_selected",
+             "campus_operator_called"
+             ],
+        },
+        "diningaccount" :
+        {
+            "Name" : "Dining Account",
+            "Description" : "If you've invested in a BYU Dining account, you don't want to run out of funds before the semester is over. You also don't want to lose your balance at the end of the semester. Ensure your spending is on track with this feature.",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "DiningAccount",
+            "Storyboard_iOS" : "DiningAccount",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "finalsSchedule" :
+        {
+            "Name" : "Map My Finals",
+            "Description" : "View your final schedule",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "MapMyFinals",
+            "Storyboard_iOS" : "MapMyFinals",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "building_selected",
+             "final_selected"
+             ],
+        },
+        "gpacalculator" :
+        {
+            "Name" : "GPA Calculator",
+            "Description" : "This feature helps you set some academic goals. Figure out what it will take to get your GPA exactly where you want it.",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "GPACalculator",
+            "Class_iOS" : "GpaCalculatorViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "IDCard" :
+        {
+            "Name" : "ID Card",
+            "Description" : "Display your BYU ID card. This virtual ID Card is accepted as identificaiton at many locations around campus.",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "IDCard",
+            "Storyboard_iOS" : "IDCard",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "jobOpenings" :
+        {
+            "Name" : "Job Openings",
+            "Description" : "View BYU job openings",
+            "InProduction" : true,
+            "Categories" : ["Services"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "JobOpenings",
+            "Class_iOS" : "ByuJobOpeningsRootViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "labcomputers" :
+        {
+            "Name" : "Lab Computers",
+            "Description" : "Find an open computer in a lab around campus.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "LabComputers",
+            "Storyboard_iOS" : "LabComputers",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "learningSuite" :
+        {
+            "Name" : "BYU Learning Suite",
+            "Description" : "BYU Learning Suite is an online learning management system developed by the Center for Teaching and Learning (CTL) and The Office of Information Technology (OIT) to facilitate student learning and to assist professors in presenting and managing courses.",
+            "InProduction" : true,
+            "Categories" : ["Academic"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "LearningSuite",
+            "Class_iOS" : "LearningSuiteRootViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "displayed_aggregate_calendar_item",
+             "ical_calendar_action_button_pressed",
+             "ical_calendar_subscribed",
+             "ical_calendar_action_canceled",
+             "display_course_announcement",
+             "paged_assignments_view_swiped_via_tap",
+             "course_assignment_selected",
+             "tapped_assignment_due_date",
+             "individual_assignment_added_to_calendar",
+             "individual_assignment_calendar_addition_canceled",
+             "display_course_aggregate_calendar",
+             "display_course_announcements",
+             "display_course_assignments",
+             "display_course_pages",
+             "display_course_instructors",
+             "display_course_materials",
+             "displayed_course_instructor_information",
+             "displayed_course_ta_information",
+             "displayed_further_information",
+             "displayed_course_materials",
+             "tapped_course_material_item",
+             "displayed_course_page",
+             "selected_enrolled_course",
+             "selected_instructed_course",
+             "system_announcement_tapped"
+             ],
+        },
+        "lockerRental" :
+        {
+            "Name" : "Locker Rental",
+            "Description" : "Looking for a place to store your stuff? Or maybe you can't remember which locker you rented, let alone what the combo is. This feature makes all of that easy.",
+            "InProduction" : true,
+            "Categories" : ["Services"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "LockerRental",
+            "Storyboard_iOS" : "LockerRental",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "browse_lockers_selected",
+             "building_selected",
+             "locker_detail_view",
+             "locker_rented",
+             "floor_selected",
+             "rented_locker_detail_view",
+             "tutorial_view"
+             ],
+        },
+        "mapMyClasses" :
+        {
+            "Name" : "Map My Classes",
+            "Description" : "For about the first week of each semester, nobody can remember when and where their classes are - this feature should help.",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "MapMyClasses",
+            "Storyboard_iOS" : "MapMyClasses",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "building_selected"
+             ],
+        },
+        "missionarydeferment" :
+        {
+            "Name" : "Missionary Deferment",
+            "Description" : "Students can defer enrollment due to missionary service.",
+            "InProduction" : true,
+            "Categories" : ["Services"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "MissionaryDeferment",
+            "Class_iOS" : "MissionaryDefermentViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "mynextclass" :
+        {
+            "Name" : "My Next Class",
+            "Description" : "Quickly see the time and location of your next class.",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "MyNextClass",
+            "Storyboard_iOS" : "MyNextClass",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "send_to_byu_learning_suite_feature",
+             "show_class_schedule",
+             "display_academic_calendar",
+             "map_class"
+             ],
+        },
+        "networkDeviceRegistration" :
+        {
+            "Name" : "Manage Devices",
+            "Description" : "Allows you to unregister devices from the BYU wireless network.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "ManageDevices",
+            "Storyboard_iOS" : "ManageDevices",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "device_registration_removal_not_successful",
+             "device_registration_removed"
+             ],
+        },
+        "newStudentOrientation" :
+        {
+            "Name" : "New Student Orientation",
+            "Description" : "The Office of First-Year Experience is dedicated to helping you get the most out of your first year at BYU.  The Schedule for the New Student Orientation will likely change between now and the first day of Orientation, so check again as the date gets closer.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "NewStudentOrientation",
+            "Storyboard_iOS" : "NewStudentOrientation",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "nfegpa" :
+        {
+            "Name" : "New Freshman EGPA Calculator",
+            "Description" : "Allows employees (who have authorization) to calculate the estimated first year GPA of prospective freshman applicants.",
+            "InProduction" : true,
+            "Categories" : ["Academic"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "NfeGPA",
+            "Class_iOS" : "NFEgpaViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "offCampusHousing" :
+        {
+            "Name" : "Off Campus Housing",
+            "Description" : "Now it's easier than ever to find somewhere to live near BYU campus. This feature shows Off Campus Housing listings as pins on a map. This map can be filtered to only show listings that meet specific criteria (e.g. price range, private/shared rooms, semester availability, etc.).",
+            "InProduction" : true,
+            "Categories" : ["Services"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "OffCampusHousing",
+            "Storyboard_iOS" : "OffCampusHousing",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "view_housing_detail",
+             "address_tapped",
+             "phone_number_tapped",
+             "email_tapped",
+             "url_tapped"
+             ],
+        },
+        "parking" :
+        {
+            "Name" : "Parking Lots",
+            "Description" : "re you walking all the way across campus just because you don't know there's a parking lot right next to your class? This feature shows a map of all parking lots on campus, of a selected type (A, C, G, Y, etc.). You can even see where the bike racks are.",
+            "Categories" : ["Campus"],
+            "InProduction" : true,
+            "LoginRequired" : false,
+            "Icon_iOS" : "Parking",
+            "Storyboard_iOS" : "Parking",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "lot_type_selected"
+             ],
+        },
+        "permissionToAdd" :
+        {
+            "Name" : "Reg Permission-To-Add",
+            "Description" : "Faculty can easily grant students Permission-To-Add their classes.",
+            "InProduction" : true,
+            "Categories" : ["Academic"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "PermissionToAdd",
+            "Class_iOS" : "PermissionToAddViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "personDirectory" :
+        {
+            "Name" : "Person Directory",
+            "Description" : "Find public contact information for Students, Faculty, and Staff at BYU.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "PersonDirectory",
+            "Class_iOS" : "PersonDirectorySearchViewController",
+            "Nib_iOS" : "PersonDirectorySearchViewController",
+            "Nib_iPad_iOS" : "PersonDirectorySearchViewController_iPad",
+            "Analytics" :
+            [
+             "contact_info_displayed"
+             ],
+        },
+        "restroom" :
+        {
+            "Name" : "Restrooms",
+            "Description" : "This feature helps you quickly find the nearest restroom on campus. It also allows you to list restrooms in any chosen building on campus.",
+            "InProduction" : true,
+            "Categories" : ["Campus"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "RestroomLocator",
+            "Storyboard_iOS" : "RestroomLocator",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "selected_building_updated"
+             ],
+        },
+        "sickvac" :
+        {
+            "Name" : "Sick/Vacation Balances",
+            "Description" : "Administrative and Staff Employees can view their Sick and Vacation Leave Balances.",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "SickVacation",
+            "Class_iOS" : "SickLeaveViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "accrual_detail_view",
+             "balances_view"
+             ],
+        },
+        "stowaway" :
+        {
+            "Name" : "Stowaway Magazine",
+            "Description" : "Explore BYU's free online travel magazine.",
+            "InProduction" : true,
+            "Categories" : ["Media"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "StowawayMagazine",
+            "Class_iOS" : "StowawayIssuesViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "issue_selected"
+             ],
+        },
+        "StudentClasses" :
+        {
+            "Name" : "My Classes",
+            "Description" : "This feature allows students to view their class schedule and semester grades.",
+            "InProduction" : true,
+            "Categories" : ["Me"],
+            "LoginRequired" : true,
+            "Icon_iOS" : "MyClasses",
+            "Class_iOS" : "StudentClassesViewController",
+            "Nib_iOS" : null,
+            "Nib_iPad_iOS" : null,
+            "Analytics" :
+            [
+            ],
+        },
+        "vending" :
+        {
+            "Name" : "Vending",
+            "Description" : "Need a quick snack? This feature allows you to find vending machines and microwaves on campus. You can also search for a specific product (e.g. Chocolate Milk) and see which vending machines carry it.",
+            "InProduction" : true,
+            "Categories" : ["Campus", "Services"],
+            "LoginRequired" : false,
+            "Icon_iOS" : "Vending",
+            "Storyboard_iOS" : "Vending",
+            "Storyboard_iPad_iOS" : null,
+            "Analytics" :
+            [
+             "name_selected",
+             "machine_detail_view",
+             "product_selected",
+             "category_selected",
+             "view_all_machines",
+             "view_all_microwaves",
+             "view_all_categories",
+             "view_all_products"
+             ],
+        },
+    }
+}
