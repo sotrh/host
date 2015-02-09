@@ -12,7 +12,7 @@
                   { "appId" : "internationalStudy" }
                   ],
     
-    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media", "Test"],
+    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media"],
     
     "ExternalApps" :
     {
@@ -21,7 +21,7 @@
             "Name" : "BYU Homepage",
             "Description" : "Launches the BYU Homepage in your browser.",
             "InProduction" : true,
-            "Categories" : ["Test"],
+            "Categories" : ["Media"],
             "Icon_iOS" : "Homepage",
             "TargetUrl_iOS" : "http://byu.edu/",
             "BackupUrl_iOS" : null,
@@ -31,7 +31,7 @@
             "Name" : "BYUradio",
             "Description" : "Listen to BYU Radio programming on your mobile device. This feature launches the official BYU Radio app, if it is installed. Otherwise, it takes you to where you can download it.",
             "InProduction" : true,
-            "Categories" : ["Test"],
+            "Categories" : ["Media"],
             "Icon_iOS" : "Radio",
             "TargetUrl_iOS" : "byuradio://",
             "BackupUrl_iOS" : "http://itunes.apple.com/us/app/byuradio/id505025934#",
