@@ -12,7 +12,7 @@
                   { "appId" : "internationalStudy" }
                   ],
     
-    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media"],
+    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media", "Test"],
     
     "ExternalApps" :
     {
@@ -21,7 +21,7 @@
             "Name" : "BYU Homepage",
             "Description" : "Launches the BYU Homepage in your browser.",
             "InProduction" : true,
-            "Categories" : ["Media"],
+            "Categories" : ["Test"],
             "Icon_iOS" : "Homepage",
             "TargetUrl_iOS" : "http://byu.edu/",
             "BackupUrl_iOS" : null,
@@ -31,7 +31,7 @@
             "Name" : "BYUradio",
             "Description" : "Listen to BYU Radio programming on your mobile device. This feature launches the official BYU Radio app, if it is installed. Otherwise, it takes you to where you can download it.",
             "InProduction" : true,
-            "Categories" : ["Media"],
+            "Categories" : ["Test"],
             "Icon_iOS" : "Radio",
             "TargetUrl_iOS" : "byuradio://",
             "BackupUrl_iOS" : "http://itunes.apple.com/us/app/byuradio/id505025934#",
@@ -41,7 +41,7 @@
             "Name" : "BYU Translate",
             "Description" : "Get the BYU Translate app! This feature launches the official BYU Translate app, if it is installed. Otherwise, it takes you to where you can download it.",
             "InProduction" : true,
-            "Categories" : ["Media"],
+            "Categories" : ["Test"],
             "Icon_iOS" : "BYUTranslate",
             "TargetUrl_iOS" : "byutranslate://",
             "BackupUrl_iOS" : "https://itunes.apple.com/us/app/byutranslate/id534512918",
