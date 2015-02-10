@@ -12,7 +12,7 @@
                   { "appId" : "internationalStudy" }
                   ],
     
-    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media", "Test"],
+    "CategoriesOrder" : ["Me", "Academic", "Services", "Campus", "Media"],
     
     "ExternalApps" :
     {
@@ -21,7 +21,7 @@
             "Name" : "BYU Homepage",
             "Description" : "Launches the BYU Homepage in your browser.",
             "InProduction" : true,
-            "Categories" : ["Test"],
+            "Categories" : ["Media"],
             "Icon_iOS" : "Homepage",
             "TargetUrl_iOS" : "http://byu.edu/",
             "BackupUrl_iOS" : null,
