@@ -1,10 +1,10 @@
 {
-	"splashImageURL" : "moa_splash.jpg",
-	"logoURL" : "moa_logo.png",
+	"splashImageURL" : "https://raw.githubusercontent.com/sotrh/host/master/moa/moa_splash.jpg",
+	"logoURL" : "https://raw.githubusercontent.com/sotrh/host/master/moa/moa_logo.png",
 
 	"albums":[
-		"albums/deco/album.json",
-		"albums/paper/album.json",
-		"albums/shaping/album.json"
+		"https://raw.githubusercontent.com/sotrh/host/master/moa/albums/deco/album.json",
+		"https://raw.githubusercontent.com/sotrh/host/master/moa/albums/paper/album.json",
+		"https://raw.githubusercontent.com/sotrh/host/master/moa/albums/shaping/album.json"
 	]
 }

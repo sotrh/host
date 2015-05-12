@@ -1,24 +1,24 @@
 {
 	"name" : "Folding Paper",
-	"coverURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/paper/mother_child.jpg",
+	"coverURL" : "https://raw.githubusercontent.com/sotrh/host/master/moa/paper/mother_child.jpg",
 	"artwork" : 
 	[
 		{
 			"title" : "Elephant",
 			"author" : "Author NameOne",
-			"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/paper/elephant.jpg",
+			"imageURL" : "https://raw.githubusercontent.com/sotrh/host/master/moa/paper/elephant.jpg",
 			"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
 		},
 		{
 			"title" : "Indian Ink",
 			"author" : "Author De Los Santos De Los Filmes",
-			"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/paper/indian.jpg",
+			"imageURL" : "https://raw.githubusercontent.com/sotrh/host/master/moa/paper/indian.jpg",
 			"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
 		},
 		{
 			"title" : "Mother & Child",
 			"author" : "Author NameThree",
-			"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/paper/mother_child.jpg",
+			"imageURL" : "https://raw.githubusercontent.com/sotrh/host/master/moa/paper/mother_child.jpg",
 			"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
 		}
 	]

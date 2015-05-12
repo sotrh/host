@@ -1,12 +1,12 @@
 {
 	"name" : "Deco Japan",
-	"coverURL" : "kiyoshi_large_crop.jpg",
+	"coverURL" : "https://raw.githubusercontent.com/sotrh/host/master/moa/albums/deco/kiyoshi_large_crop.jpg",
 	"artwork" : 
 	[
 		{
 			"title" : "Kiyoshi + Really Long Title For Testing Purposes",
 			"author" : "Author NameOne + Really Long Name For Testing Purposes",
-			"imageURL" : "kiyoshi.jpg",
+			"imageURL" : "https://raw.githubusercontent.com/sotrh/host/master/moa/albums/deco/kiyoshi.jpg",
 			"description" : "Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes"
 		},
 		{
