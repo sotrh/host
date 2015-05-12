@@ -1,3 +1,82 @@
 {
-
+	"splashImageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/moa_splash.jpg",
+	"logoURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/moa_logo.png",
+	"albums" : 
+	[
+		{
+			"name" : "Deco Japan",
+			"coverURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/deco/kiyoshi_large_crop.jpg",
+			"artwork" : 
+			[
+				{
+					"title" : "Kiyoshi + Really Long Title For Testing Purposes",
+					"author" : "Author NameOne + Really Long Name For Testing Purposes",
+					"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/deco/kiyoshi.jpg",
+					"description" : "Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes"
+				},
+				{
+					"title" : "Eishin II",
+					"author" : "Author NameTwo",
+					"imageURL" : "http://moa.byu.edu/wp-content/uploads/photo-gallery/093.2_EishinII.jpg",
+					"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+				},
+				{
+					"title" : "Hakuo",
+					"author" : "Author NameThree + MediumSize",
+					"imageURL" : "http://moa.byu.edu/wp-content/uploads/photo-gallery/thumb/047.1_Hakuo.jpg",
+					"description" : "Description Three + Small"
+				}
+			]
+		},
+		{
+			"name" : "Folding Paper",
+			"coverURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/paper/mother_child.jpg",
+			"artwork" : 
+			[
+				{
+					"title" : "Elephant",
+					"author" : "Author NameOne",
+					"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/paper/elephant.jpg",
+					"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+				},
+				{
+					"title" : "Indian Ink",
+					"author" : "Author De Los Santos De Los Filmes",
+					"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/paper/indian.jpg",
+					"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+				},
+				{
+					"title" : "Mother & Child",
+					"author" : "Author NameThree",
+					"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/paper/mother_child.jpg",
+					"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+				}
+			]
+		},
+		{
+			"name" : "Shaping America",
+			"coverURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/shaping/hopi.jpg",
+			"artwork" : 
+			[
+				{
+					"title" : "Hopi Home",
+					"author" : "Luke Skywalker",
+					"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/shaping/hopi.jpg",
+					"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+				},
+				{
+					"title" : "Mrs. Edward Geotz",
+					"author" : "Obi-Wan Kenobi",
+					"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/shaping/goetz.jpg",
+					"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+				},
+				{
+					"title" : "Mountain Man",
+					"author" : "Darth Vader",
+					"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/shaping/mountain.jpg",
+					"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+				}
+			]
+		}
+	]
 }
