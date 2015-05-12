@@ -1,0 +1,10 @@
+{
+	"splashImageURL" : "moa_splash.jpg",
+	"logoURL" : "moa_logo.png",
+
+	"albums":[
+		"albums/deco/album.json",
+		"albums/paper/album.json",
+		"albums/shaping/album.json"
+	]
+}

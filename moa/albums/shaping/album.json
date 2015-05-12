@@ -1,0 +1,25 @@
+{
+	"name" : "Shaping America",
+	"coverURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/shaping/hopi.jpg",
+	"artwork" : 
+	[
+		{
+			"title" : "Hopi Home",
+			"author" : "Luke Skywalker",
+			"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/shaping/hopi.jpg",
+			"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+		},
+		{
+			"title" : "Mrs. Edward Geotz",
+			"author" : "Obi-Wan Kenobi",
+			"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/shaping/goetz.jpg",
+			"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+		},
+		{
+			"title" : "Mountain Man",
+			"author" : "Darth Vader",
+			"imageURL" : "https://raw.githubusercontent.com/mitch10e/host/master/moa/shaping/mountain.jpg",
+			"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+		}
+	]
+}

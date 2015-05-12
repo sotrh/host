@@ -1,0 +1,25 @@
+{
+	"name" : "Deco Japan",
+	"coverURL" : "kiyoshi_large_crop.jpg",
+	"artwork" : 
+	[
+		{
+			"title" : "Kiyoshi + Really Long Title For Testing Purposes",
+			"author" : "Author NameOne + Really Long Name For Testing Purposes",
+			"imageURL" : "kiyoshi.jpg",
+			"description" : "Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes + Description One + Really Long Description For Testing Purposes"
+		},
+		{
+			"title" : "Eishin II",
+			"author" : "Author NameTwo",
+			"imageURL" : "http://moa.byu.edu/wp-content/uploads/photo-gallery/093.2_EishinII.jpg",
+			"description" : "Description Two + Normal Sized Description for Testing Purposes + I Hope This Is Normal Size"
+		},
+		{
+			"title" : "Hakuo",
+			"author" : "Author NameThree + MediumSize",
+			"imageURL" : "http://moa.byu.edu/wp-content/uploads/photo-gallery/thumb/047.1_Hakuo.jpg",
+			"description" : "Description Three + Small"
+		}
+	]
+}
